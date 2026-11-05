@@ -1,0 +1,176 @@
+import type { Database } from "./types";
+import { hashPassword } from "./password";
+import seedProducts from "../../data/_seed_products.json";
+
+export async function seedDatabase(): Promise<Database> {
+  const password = process.env.ADMIN_PASSWORD || "furnworld@2026";
+  return {
+    settings: {
+      siteName: "Furn World",
+      tagline: "for furniture",
+      logo: "/images/brand/logo.png",
+      foundedYear: 1999,
+      whatsapp: "918438437432",
+      primaryPhone: "+91 84384 37432",
+      primaryEmail: "furnworld@gmail.com",
+      announcement: "Manufacturer direct since 1999 · Free delivery across Chennai, Karaikal and Puducherry",
+      instagram: "",
+      facebook: "",
+      youtube: "",
+      seoTitle: "Furn World · Furniture manufacturer in Chennai & Karaikal",
+      seoDescription:
+        "Furn World designs and manufactures sofas, cots, dining sets, wardrobes and office furniture in Chennai and Karaikal since 1999. Build your own sofa in 3D.",
+      footerNote: "Designed and made in Tamil Nadu. Delivered across India and exported to the Middle East and South East Asia.",
+      showPrices: false,
+      currencySymbol: "₹",
+    },
+    hero: [
+      {
+        id: "hero_1",
+        eyebrow: "Manufacturer direct · Since 1999",
+        title: "Furniture made for the way you live",
+        subtitle: "Sofas, cots, dining sets and wardrobes designed in our Chennai studio and built by our own craftsmen.",
+        image: "/images/brand/hero-1.jpg",
+        ctaText: "Explore the collection",
+        ctaHref: "/products",
+      },
+      {
+        id: "hero_2",
+        eyebrow: "New · 3D Builder",
+        title: "Design your own sofa in 3D",
+        subtitle: "Pick the seats, the fabric and the wood. Watch it come to life, then send it straight to our workshop.",
+        image: "/images/brand/hero-2.jpg",
+        ctaText: "Open the builder",
+        ctaHref: "/builder",
+      },
+      {
+        id: "hero_3",
+        eyebrow: "Office collection",
+        title: "Desks and chairs that work as hard as you",
+        subtitle: "Executive tables, ergonomic chairs and study desks for home offices and corporate floors.",
+        image: "/images/brand/hero-3.jpg",
+        ctaText: "Office & study",
+        ctaHref: "/products/office-and-study",
+      },
+    ],
+    banners: [
+      { id: "ban_1", eyebrow: "New arrivals", title: "Arc collection sofas", image: "/images/brand/feature-1.jpg", href: "/products/sofa" },
+      { id: "ban_2", eyebrow: "Solid wood", title: "Cots built for deep sleep", image: "/images/brand/feature-2.jpg", href: "/products/cot" },
+    ],
+    categories: seedProducts.categories,
+    products: seedProducts.products as Database["products"],
+    about: {
+      eyebrow: "Our story",
+      title: "Twenty-five years of making furniture by hand",
+      intro:
+        "Furn World was founded in 1999 as a small workshop in Karaikal. Today we design, manufacture and export furniture from two showrooms in Chennai and Karaikal, with every piece still built by our own team.",
+      story: [
+        "We started with study tables and shoe racks for families in Karaikal. Word travelled, and within a few years we were building cots, dining sets and carved deewan sofas for homes across Tamil Nadu and Puducherry.",
+        "Today our range runs from kids' study tables to executive office floors. We manufacture everything ourselves, which is why we can make a wardrobe to the inch of your wall or a sofa in the exact fabric you choose.",
+        "Our customers now span the Indian subcontinent, the Middle East, East Asia and South East Asia. What has not changed is the way each piece leaves our workshop: inspected by the same people who built it.",
+      ],
+      heroImage: "/images/brand/about.jpg",
+      galleryImages: [
+        "/images/brand/showroom-1.jpg",
+        "/images/brand/showroom-2.jpg",
+        "/images/brand/showroom-3.jpg",
+        "/images/brand/showroom-4.jpg",
+      ],
+      stats: [
+        { id: "st_1", value: "1999", label: "Founded in Karaikal" },
+        { id: "st_2", value: "2", label: "Showrooms" },
+        { id: "st_3", value: "12,000+", label: "Homes furnished" },
+        { id: "st_4", value: "8", label: "Countries exported to" },
+      ],
+      values: [
+        { id: "v_1", title: "Made by us, not sourced", text: "Every piece is built in our own workshop by craftsmen who have been with us for years." },
+        { id: "v_2", title: "Seasoned wood only", text: "We buy timber months ahead and season it ourselves so joints stay tight for decades." },
+        { id: "v_3", title: "Honest pricing", text: "You buy directly from the manufacturer. No showroom markups, no middlemen." },
+        { id: "v_4", title: "Built to your wall", text: "Wardrobes, TV units and kitchens made to the inch of your room, not to a catalogue size." },
+      ],
+      process: [
+        { id: "p_1", title: "Consult", text: "Visit a showroom or send us a photo of your room on WhatsApp. We sketch options the same day." },
+        { id: "p_2", title: "Design", text: "Configure seats, fabric and finish in the 3D builder, or let our designers draw it for you." },
+        { id: "p_3", title: "Craft", text: "Our workshop cuts, joins, polishes and upholsters. Most pieces are ready in three to four weeks." },
+        { id: "p_4", title: "Deliver", text: "Our own team delivers and installs, then walks you through care and warranty." },
+      ],
+    },
+    testimonials: [
+      { id: "t_1", name: "Hussain Ali H. Vakalia", location: "Chennai", text: "Very good choice and nice collections, good approach and fair deal. Will recommend, best wishes.", rating: 5 },
+      { id: "t_2", name: "Devendran Rajesh", location: "Karaikal", text: "Quality furniture at affordable prices. I bought a king-sized wooden cot, a chair and a shoe rack and all three were delivered and installed with care.", rating: 5 },
+      { id: "t_3", name: "Suhail Ahmed", location: "Puducherry", text: "Every product in the shop is very nice and they treat every customer with respect.", rating: 5 },
+    ],
+    branches: [
+      {
+        id: "br_1",
+        name: "Karaikal showroom",
+        address: "No. 122, Bharathiar Road, Karaikal, Puducherry 609602",
+        phones: ["+91 98655 42727", "+91 84384 37432"],
+        email: "furnworld@gmail.com",
+        mapQuery: "Bharathiar Road, Karaikal, Puducherry 609602",
+        hours: "Mon to Sat · 9:30 am to 9 pm",
+      },
+      {
+        id: "br_2",
+        name: "Chennai showroom",
+        address: "No. 332A, Arcot Road, Chitra Towers, Kodambakkam, Chennai 600024",
+        phones: ["+91 94443 76382", "+91 81445 46999"],
+        email: "furnworldansari@gmail.com",
+        mapQuery: "Chitra Towers, Arcot Road, Kodambakkam, Chennai 600024",
+        hours: "Mon to Sun · 10 am to 9 pm",
+      },
+    ],
+    builder: {
+      models: [
+        { id: "sofa", name: "Sofa", basePrice: 18500, description: "Two to four seats, your fabric, your legs." },
+        { id: "chair", name: "Lounge chair", basePrice: 9500, description: "A single sculpted seat with ottoman." },
+        { id: "bed", name: "Cot", basePrice: 19500, description: "Queen or king, with optional hydraulic storage." },
+        { id: "dining", name: "Dining table", basePrice: 16500, description: "Four to eight seats, round or rectangular." },
+      ],
+      fabrics: [
+        { id: "f_sand", name: "Sand linen", hex: "#D9CBB4", price: 0 },
+        { id: "f_ivory", name: "Ivory boucle", hex: "#EFE9DD", price: 1500 },
+        { id: "f_olive", name: "Olive velvet", hex: "#6B7A4B", price: 2500 },
+        { id: "f_rust", name: "Rust velvet", hex: "#B5553A", price: 2500 },
+        { id: "f_navy", name: "Navy chenille", hex: "#22304F", price: 2000 },
+        { id: "f_charcoal", name: "Charcoal tweed", hex: "#3B3B3B", price: 1800 },
+        { id: "f_teal", name: "Teal velvet", hex: "#2A6F77", price: 2500 },
+        { id: "f_blush", name: "Blush cotton", hex: "#E0B5AB", price: 1200 },
+        { id: "f_mustard", name: "Mustard weave", hex: "#D1A13D", price: 1800 },
+        { id: "f_cognac", name: "Cognac leatherette", hex: "#8A4B2A", price: 4500 },
+      ],
+      woods: [
+        { id: "w_teak", name: "Teak", hex: "#8B5A2B", price: 3500 },
+        { id: "w_walnut", name: "Walnut", hex: "#4A2E1D", price: 2500 },
+        { id: "w_oak", name: "Natural oak", hex: "#C9A574", price: 1500 },
+        { id: "w_wenge", name: "Wenge", hex: "#2B1C14", price: 2000 },
+        { id: "w_black", name: "Matte black", hex: "#1A1A1A", price: 1000 },
+      ],
+      seatPrice: 6500,
+      storagePrice: 6000,
+      extensionPrice: 4500,
+      leadTimeWeeks: 4,
+    },
+    faqs: [
+      { id: "faq_1", question: "Do you make custom sizes?", answer: "Yes. Almost everything we sell is made in our own workshop, so wardrobes, TV units, cots and sofas can be built to the exact size of your room. Send us a photo and measurements on WhatsApp and we will draw it up." },
+      { id: "faq_2", question: "How long does an order take?", answer: "Pieces from the showroom floor can be delivered within a few days. Made-to-order furniture usually takes three to four weeks depending on fabric and finish." },
+      { id: "faq_3", question: "Do you deliver outside Chennai and Karaikal?", answer: "We deliver across Tamil Nadu and Puducherry with our own vehicles, and ship across India and overseas through trusted partners. Delivery charges depend on distance; local delivery is free." },
+      { id: "faq_4", question: "What wood do you use?", answer: "Teak, seasoned country wood and high-grade engineered boards with laminate or veneer. Every product page lists its materials, and we are happy to show you samples in the showroom." },
+      { id: "faq_5", question: "Is there a warranty?", answer: "Yes. Every piece carries a workshop warranty against manufacturing defects, from two years on upholstery to ten years on solid teak frames. The period is listed on each product page." },
+      { id: "faq_6", question: "Can I see the fabric before ordering?", answer: "Of course. Choose a fabric in the 3D builder, then visit a showroom to feel the swatch. We keep every fabric and wood finish from the builder in stock as physical samples." },
+    ],
+    care: {
+      title: "Care & warranty",
+      intro: "A little care keeps solid wood and good upholstery beautiful for decades. Here is how we look after the furniture we make, and what our warranty covers.",
+      sections: [
+        { id: "care_1", title: "Solid wood", text: "Dust with a soft, dry cloth. Wipe spills immediately and avoid harsh cleaners. Keep pieces out of direct sunlight and away from air-conditioner vents to prevent the finish from fading or the wood from drying. A light coat of furniture wax once a year keeps the polish deep." },
+        { id: "care_2", title: "Fabric upholstery", text: "Vacuum weekly with the brush attachment. Rotate loose cushions so they wear evenly. Blot spills with a clean cloth; never rub. Most of our fabrics can be spot-cleaned with mild soap and water; ask us for the care code of your fabric." },
+        { id: "care_3", title: "Leatherette and leather", text: "Wipe with a slightly damp cloth and dry immediately. Keep away from heaters and direct sunlight. Condition genuine leather every six months with a product we can recommend." },
+        { id: "care_4", title: "Laminates and engineered boards", text: "Wipe with a damp cloth and mild detergent. Do not let water stand on edges. Use coasters under hot or wet items." },
+        { id: "care_5", title: "What the warranty covers", text: "Manufacturing defects in frames, joints, mechanisms and finishes for the period shown on the product page. It does not cover normal wear, accidental damage, misuse or changes caused by extreme humidity or sunlight. Call either showroom and we will arrange a repair or replacement." },
+      ],
+    },
+    enquiries: [],
+    admin: { username: process.env.ADMIN_USERNAME || "admin", passwordHash: hashPassword(password) },
+  };
+}

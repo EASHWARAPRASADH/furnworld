@@ -1,0 +1,1233 @@
+{
+ "categories": [
+  {
+   "id": "cat_sofa",
+   "slug": "sofa",
+   "name": "Sofas & Seating",
+   "tagline": "Sink-in comfort, built to last",
+   "description": "Hand-upholstered sofas, recliners, lounge chairs and sofa-cum-beds made in our Chennai workshop.",
+   "image": "/images/products/premium-sofa.jpg",
+   "order": 1
+  },
+  {
+   "id": "cat_cot",
+   "slug": "cot",
+   "name": "Cots & Beds",
+   "tagline": "Solid-wood beds for deep sleep",
+   "description": "Teak and engineered-wood cots with hydraulic storage, queen and king sizes.",
+   "image": "/images/products/queen-size-wooden-cot.webp",
+   "order": 2
+  },
+  {
+   "id": "cat_dining-table",
+   "slug": "dining-table",
+   "name": "Dining Tables",
+   "tagline": "Where the family gathers",
+   "description": "Round, rectangular and six-seater dining sets with matching chairs.",
+   "image": "/images/products/wooden-dining-table.jpg",
+   "order": 3
+  },
+  {
+   "id": "cat_wardrobes",
+   "slug": "wardrobes",
+   "name": "Wardrobes",
+   "tagline": "Storage that feels like architecture",
+   "description": "Sliding, hinged and modular wardrobes with dressing units.",
+   "image": "/images/products/bedroom-wardrobe.jpg",
+   "order": 4
+  },
+  {
+   "id": "cat_tables",
+   "slug": "tables",
+   "name": "Tables & Consoles",
+   "tagline": "Small pieces, big character",
+   "description": "Coffee tables, consoles, side tables, folding tables and nested sets.",
+   "image": "/images/products/console-table.webp",
+   "order": 5
+  },
+  {
+   "id": "cat_office-and-study",
+   "slug": "office-and-study",
+   "name": "Office & Study",
+   "tagline": "Furniture that works as hard as you",
+   "description": "Executive desks, ergonomic chairs and study tables for home and office.",
+   "image": "/images/products/study-desk.webp",
+   "order": 6
+  },
+  {
+   "id": "cat_storage-and-display-unit",
+   "slug": "storage-and-display-unit",
+   "name": "Storage & Display",
+   "tagline": "Show what you love, hide the rest",
+   "description": "TV units, bookshelves, crockery units, shoe racks and pooja mandirs.",
+   "image": "/images/products/crockery-unit.webp",
+   "order": 7
+  },
+  {
+   "id": "cat_other",
+   "slug": "other",
+   "name": "Accents & Decor",
+   "tagline": "The finishing touches",
+   "description": "Swings, rocking chairs, mirrors and corner stands.",
+   "image": "/images/products/rocking-chair.webp",
+   "order": 8
+  }
+ ],
+ "products": [
+  {
+   "id": "prod_wooden-sofa-set",
+   "slug": "wooden-sofa-set",
+   "name": "Wooden Sofa Set",
+   "categoryId": "cat_sofa",
+   "shortDescription": "Classic three-plus-one-plus-one teak-finish set with carved arms.",
+   "description": "A timeless 3+1+1 wooden sofa set with hand-carved arms, deep sprung seats and removable cushions. Finished in a warm teak polish that deepens with age.",
+   "price": 24500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/wooden-sofa-set.jpg"
+   ],
+   "featured": false,
+   "badge": "Bestseller",
+   "materials": [
+    "Seasoned teak wood",
+    "High-density foam",
+    "Cotton-linen fabric"
+   ],
+   "dimensions": "3 seater: 72 x 32 x 34 in \u00b7 1 seater: 30 x 32 x 34 in",
+   "warrantyYears": 5,
+   "inStock": true,
+   "order": 1,
+   "builderModel": "sofa"
+  },
+  {
+   "id": "prod_premium-sofa",
+   "slug": "premium-sofa",
+   "name": "Premium Sofa",
+   "categoryId": "cat_sofa",
+   "shortDescription": "Plush three-seater in velvet with tapered legs.",
+   "description": "Our premium three-seater pairs a kiln-dried hardwood frame with pocket springs and feather-wrapped foam. Choose from twelve fabrics and four leg finishes in the 3D builder.",
+   "price": 38900,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/premium-sofa.jpg"
+   ],
+   "featured": true,
+   "badge": "Premium",
+   "materials": [
+    "Hardwood frame",
+    "Pocket springs",
+    "Velvet or linen"
+   ],
+   "dimensions": "84 x 36 x 33 in",
+   "warrantyYears": 7,
+   "inStock": true,
+   "order": 2,
+   "builderModel": "sofa"
+  },
+  {
+   "id": "prod_reclining-sofa",
+   "slug": "reclining-sofa",
+   "name": "Reclining Sofa",
+   "categoryId": "cat_sofa",
+   "shortDescription": "Motion recliner with padded headrest.",
+   "description": "A three-seater recliner with smooth German mechanisms, padded headrests and cup-holder console. Built for movie nights.",
+   "price": 52000,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/reclining-sofa.jpg"
+   ],
+   "featured": false,
+   "badge": "New",
+   "materials": [
+    "Steel mechanism",
+    "Leatherette or fabric",
+    "High-resilience foam"
+   ],
+   "dimensions": "86 x 38 x 40 in",
+   "warrantyYears": 5,
+   "inStock": true,
+   "order": 3,
+   "builderModel": "sofa"
+  },
+  {
+   "id": "prod_full-cushion-sofa",
+   "slug": "full-cushion-sofa",
+   "name": "Full Cushion Sofa",
+   "categoryId": "cat_sofa",
+   "shortDescription": "Fully upholstered, cloud-soft seating.",
+   "description": "Every surface wrapped in cushion: a fully upholstered sofa with loose back pillows and a low, lounging profile.",
+   "price": 31500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/full-cushion-sofa.webp"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Hardwood frame",
+    "Fibre-filled back",
+    "Chenille fabric"
+   ],
+   "dimensions": "80 x 36 x 32 in",
+   "warrantyYears": 5,
+   "inStock": true,
+   "order": 4,
+   "builderModel": "sofa"
+  },
+  {
+   "id": "prod_corner-l-shape-sofa",
+   "slug": "corner-l-shape-sofa",
+   "name": "Corner / L-Shape Sofa",
+   "categoryId": "cat_sofa",
+   "shortDescription": "L-shape sectional for the whole family.",
+   "description": "A generous L-shaped sectional with a chaise on your choice of side. Modular cushions, a solid plywood frame and fabric that resists stains.",
+   "price": 48500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/corner-l-shape-sofa.webp"
+   ],
+   "featured": true,
+   "badge": "Family favourite",
+   "materials": [
+    "Plywood frame",
+    "High-density foam",
+    "Stain-resistant fabric"
+   ],
+   "dimensions": "110 x 70 x 34 in",
+   "warrantyYears": 5,
+   "inStock": true,
+   "order": 5,
+   "builderModel": "sofa"
+  },
+  {
+   "id": "prod_sofa-cum-bed",
+   "slug": "sofa-cum-bed",
+   "name": "Sofa cum Bed",
+   "categoryId": "cat_sofa",
+   "shortDescription": "Sofa by day, bed by night.",
+   "description": "A clever three-seater that unfolds into a full-size bed in seconds. Perfect for guest rooms and compact apartments.",
+   "price": 27900,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/sofa-cum-bed.png"
+   ],
+   "featured": false,
+   "badge": "Space saver",
+   "materials": [
+    "Metal fold mechanism",
+    "Foam mattress",
+    "Fabric"
+   ],
+   "dimensions": "78 x 34 x 32 in \u00b7 bed 78 x 60 in",
+   "warrantyYears": 3,
+   "inStock": true,
+   "order": 6,
+   "builderModel": "sofa"
+  },
+  {
+   "id": "prod_dewan",
+   "slug": "dewan",
+   "name": "Dewan",
+   "categoryId": "cat_sofa",
+   "shortDescription": "Traditional deewan with carved detailing.",
+   "description": "A hand-carved wooden deewan with a deep seat and bolster cushions. Ideal for living rooms, verandas and reading corners.",
+   "price": 19800,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/dewan.webp"
+   ],
+   "featured": false,
+   "badge": "Handcrafted",
+   "materials": [
+    "Seasoned hardwood",
+    "Carved panels",
+    "Cotton bolsters"
+   ],
+   "dimensions": "72 x 30 x 18 in",
+   "warrantyYears": 5,
+   "inStock": true,
+   "order": 7,
+   "builderModel": "sofa"
+  },
+  {
+   "id": "prod_lounge-chairs",
+   "slug": "lounge-chairs",
+   "name": "Lounge Chairs",
+   "categoryId": "cat_sofa",
+   "shortDescription": "Sculpted lounge chair with ottoman.",
+   "description": "A low, sculpted lounge chair with a matching ottoman. Wide armrests, a slight recline and a frame in natural or walnut finish.",
+   "price": 16500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/lounge-chairs.webp"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Bent plywood",
+    "Foam",
+    "Fabric or leatherette"
+   ],
+   "dimensions": "32 x 34 x 30 in",
+   "warrantyYears": 3,
+   "inStock": true,
+   "order": 8,
+   "builderModel": "chair"
+  },
+  {
+   "id": "prod_wooden-corner-sofa",
+   "slug": "wooden-corner-sofa",
+   "name": "Wooden Corner Sofa",
+   "categoryId": "cat_sofa",
+   "shortDescription": "Compact wooden corner set for small spaces.",
+   "description": "A corner set in solid wood with thin, tapered cushions and a corner table that ties the pieces together.",
+   "price": 22500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/wooden-corner-sofa.webp"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Solid wood",
+    "Foam cushions",
+    "Fabric"
+   ],
+   "dimensions": "Corner set fits 6 x 6 ft",
+   "warrantyYears": 5,
+   "inStock": true,
+   "order": 9,
+   "builderModel": "sofa"
+  },
+  {
+   "id": "prod_bottom-storage-wooden-cot",
+   "slug": "bottom-storage-wooden-cot",
+   "name": "Bottom Storage Wooden Cot",
+   "categoryId": "cat_cot",
+   "shortDescription": "Hydraulic lift-up storage bed.",
+   "description": "A queen cot with full hydraulic lift-up storage: the entire base opens to reveal a cavernous space for bedding and luggage.",
+   "price": 29500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/bottom-storage-wooden-cot.jpg"
+   ],
+   "featured": false,
+   "badge": "Bestseller",
+   "materials": [
+    "Engineered wood",
+    "Hydraulic pistons",
+    "Laminate finish"
+   ],
+   "dimensions": "Queen 78 x 60 in",
+   "warrantyYears": 5,
+   "inStock": true,
+   "order": 10,
+   "builderModel": "bed"
+  },
+  {
+   "id": "prod_modular-wooden-cot",
+   "slug": "modular-wooden-cot",
+   "name": "Modular Wooden Cot",
+   "categoryId": "cat_cot",
+   "shortDescription": "Modular cot with headboard shelving.",
+   "description": "A modular cot that grows with you: add side tables, headboard shelving or an upholstered panel.",
+   "price": 26500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/modular-wooden-cot.webp"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Engineered wood",
+    "Laminate",
+    "Optional upholstered headboard"
+   ],
+   "dimensions": "Queen or King",
+   "warrantyYears": 5,
+   "inStock": true,
+   "order": 11,
+   "builderModel": "bed"
+  },
+  {
+   "id": "prod_queen-size-wooden-cot",
+   "slug": "queen-size-wooden-cot",
+   "name": "Queen Size Wooden Cot",
+   "categoryId": "cat_cot",
+   "shortDescription": "Solid wood queen cot, classic silhouette.",
+   "description": "A queen-size cot in seasoned wood with a slatted base for breathable support and a gently curved headboard.",
+   "price": 21900,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/queen-size-wooden-cot.webp"
+   ],
+   "featured": true,
+   "badge": "",
+   "materials": [
+    "Seasoned wood",
+    "Slatted base",
+    "Polish finish"
+   ],
+   "dimensions": "Queen 78 x 60 in",
+   "warrantyYears": 7,
+   "inStock": true,
+   "order": 12,
+   "builderModel": "bed"
+  },
+  {
+   "id": "prod_teak-wood-cot",
+   "slug": "teak-wood-cot",
+   "name": "Teak Wood Cot",
+   "categoryId": "cat_cot",
+   "shortDescription": "Premium teak cot for generations.",
+   "description": "Crafted from first-grade teak, this cot features traditional joinery and a deep honey finish that only improves with age.",
+   "price": 58000,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/teak-wood-cot.webp"
+   ],
+   "featured": false,
+   "badge": "Heirloom",
+   "materials": [
+    "Burma teak",
+    "Mortise-and-tenon joinery",
+    "Natural polish"
+   ],
+   "dimensions": "King 78 x 72 in",
+   "warrantyYears": 10,
+   "inStock": true,
+   "order": 13,
+   "builderModel": "bed"
+  },
+  {
+   "id": "prod_storage-cot",
+   "slug": "storage-cot",
+   "name": "Storage Cot",
+   "categoryId": "cat_cot",
+   "shortDescription": "Box-storage cot with side drawers.",
+   "description": "A storage cot with pull-out side drawers for everyday access, plus a hidden compartment under the mattress.",
+   "price": 24900,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/storage-cot.webp"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Engineered wood",
+    "Metal runners",
+    "Laminate"
+   ],
+   "dimensions": "Queen 78 x 60 in",
+   "warrantyYears": 5,
+   "inStock": true,
+   "order": 14,
+   "builderModel": "bed"
+  },
+  {
+   "id": "prod_round-wooden-dining-table",
+   "slug": "round-wooden-dining-table",
+   "name": "Round Wooden Dining Table",
+   "categoryId": "cat_dining-table",
+   "shortDescription": "Four-seater round table for intimate dinners.",
+   "description": "A round dining table on a sculpted pedestal base with four matching chairs. Round tables make conversation easy.",
+   "price": 28500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/round-wooden-dining-table.jpg"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Solid wood",
+    "Pedestal base",
+    "Cushioned chairs"
+   ],
+   "dimensions": "42 in diameter x 30 in",
+   "warrantyYears": 5,
+   "inStock": true,
+   "order": 15,
+   "builderModel": "dining"
+  },
+  {
+   "id": "prod_wooden-dining-table-6-seater",
+   "slug": "wooden-dining-table-6-seater",
+   "name": "Wooden Dining Table 6 Seater",
+   "categoryId": "cat_dining-table",
+   "shortDescription": "Six-seater family dining set.",
+   "description": "A rectangular six-seater in solid wood with cushioned chairs. Built for daily use and Sunday feasts.",
+   "price": 36500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/wooden-dining-table-6-seater.jpg"
+   ],
+   "featured": true,
+   "badge": "Bestseller",
+   "materials": [
+    "Solid wood",
+    "Cushioned seats",
+    "Polish finish"
+   ],
+   "dimensions": "72 x 36 x 30 in",
+   "warrantyYears": 5,
+   "inStock": true,
+   "order": 16,
+   "builderModel": "dining"
+  },
+  {
+   "id": "prod_wooden-dining-table",
+   "slug": "wooden-dining-table",
+   "name": "Wooden Dining Table",
+   "categoryId": "cat_dining-table",
+   "shortDescription": "Four-seater rectangular dining table.",
+   "description": "A compact four-seater dining table with a thick top and square legs. Pairs beautifully with our bench option.",
+   "price": 22500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/wooden-dining-table.jpg"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Solid wood",
+    "Polish finish"
+   ],
+   "dimensions": "48 x 30 x 30 in",
+   "warrantyYears": 5,
+   "inStock": true,
+   "order": 17,
+   "builderModel": "dining"
+  },
+  {
+   "id": "prod_bedroom-wardrobe",
+   "slug": "bedroom-wardrobe",
+   "name": "Bedroom Wardrobe",
+   "categoryId": "cat_wardrobes",
+   "shortDescription": "Three-door wardrobe with mirror and lofts.",
+   "description": "A three-door hinged wardrobe with a full-length mirror, hanging rail, adjustable shelves and loft storage above.",
+   "price": 34500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/bedroom-wardrobe.jpg"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Engineered wood",
+    "Laminate",
+    "Soft-close hinges"
+   ],
+   "dimensions": "72 x 24 x 84 in",
+   "warrantyYears": 5,
+   "inStock": true,
+   "order": 18,
+   "builderModel": ""
+  },
+  {
+   "id": "prod_modular-wardrobe",
+   "slug": "modular-wardrobe",
+   "name": "Modular Wardrobe",
+   "categoryId": "cat_wardrobes",
+   "shortDescription": "Sliding-door modular wardrobe.",
+   "description": "A sliding-door modular wardrobe that can be configured door by door: drawers, trouser pull-outs, shoe shelves and lighting.",
+   "price": 46500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/modular-wardrobe.jpg"
+   ],
+   "featured": true,
+   "badge": "Made to measure",
+   "materials": [
+    "Engineered wood",
+    "Aluminium sliding track",
+    "Laminate or glass"
+   ],
+   "dimensions": "Custom widths from 5 to 10 ft",
+   "warrantyYears": 5,
+   "inStock": true,
+   "order": 19,
+   "builderModel": ""
+  },
+  {
+   "id": "prod_dressing-table-wardrobe",
+   "slug": "dressing-table-wardrobe",
+   "name": "Dressing Table Wardrobe",
+   "categoryId": "cat_wardrobes",
+   "shortDescription": "Wardrobe with integrated dressing unit.",
+   "description": "A wardrobe that includes a dressing unit with mirror, drawers and a seat, so you get a full bedroom storage wall in one piece.",
+   "price": 42500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/dressing-table-wardrobe.webp"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Engineered wood",
+    "Laminate",
+    "Mirror"
+   ],
+   "dimensions": "96 x 24 x 84 in",
+   "warrantyYears": 5,
+   "inStock": true,
+   "order": 20,
+   "builderModel": ""
+  },
+  {
+   "id": "prod_teapoy-and-coffee-table",
+   "slug": "teapoy-and-coffee-table",
+   "name": "Teapoy And Coffee Table",
+   "categoryId": "cat_tables",
+   "shortDescription": "Low coffee table with lower shelf.",
+   "description": "A classic teapoy with a lower shelf for magazines and a top that takes everyday knocks.",
+   "price": 8500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/teapoy-and-coffee-table.webp"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Solid wood",
+    "Polish finish"
+   ],
+   "dimensions": "40 x 20 x 18 in",
+   "warrantyYears": 3,
+   "inStock": true,
+   "order": 21,
+   "builderModel": ""
+  },
+  {
+   "id": "prod_console-table",
+   "slug": "console-table",
+   "name": "Console Table",
+   "categoryId": "cat_tables",
+   "shortDescription": "Slim console for hallways.",
+   "description": "A slim entry console with two drawers and tapered legs. Styles beautifully with a mirror above.",
+   "price": 12500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/console-table.webp"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Solid wood",
+    "Brass handles"
+   ],
+   "dimensions": "48 x 14 x 32 in",
+   "warrantyYears": 3,
+   "inStock": true,
+   "order": 22,
+   "builderModel": ""
+  },
+  {
+   "id": "prod_folding-table",
+   "slug": "folding-table",
+   "name": "Folding Table",
+   "categoryId": "cat_tables",
+   "shortDescription": "Folds flat when you need the floor.",
+   "description": "A sturdy folding table for study, dining or work-from-home that folds flat and stores behind a door.",
+   "price": 5500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/folding-table.webp"
+   ],
+   "featured": false,
+   "badge": "Value",
+   "materials": [
+    "Engineered wood",
+    "Steel frame"
+   ],
+   "dimensions": "36 x 24 x 30 in",
+   "warrantyYears": 2,
+   "inStock": true,
+   "order": 23,
+   "builderModel": ""
+  },
+  {
+   "id": "prod_side-table",
+   "slug": "side-table",
+   "name": "Side Table",
+   "categoryId": "cat_tables",
+   "shortDescription": "Round side table in solid wood.",
+   "description": "A round side table with a tripod base, sized for a lamp and a book.",
+   "price": 4500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/side-table.webp"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Solid wood"
+   ],
+   "dimensions": "18 in diameter x 22 in",
+   "warrantyYears": 3,
+   "inStock": true,
+   "order": 24,
+   "builderModel": ""
+  },
+  {
+   "id": "prod_set-of-three-tables",
+   "slug": "set-of-three-tables",
+   "name": "Set Of Three Tables",
+   "categoryId": "cat_tables",
+   "shortDescription": "Nesting tables, three sizes.",
+   "description": "A set of three nesting tables that tuck into each other when not in use and spread out when guests arrive.",
+   "price": 9800,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/set-of-three-tables.webp"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Solid wood",
+    "Polish finish"
+   ],
+   "dimensions": "Large 22 x 16 x 20 in",
+   "warrantyYears": 3,
+   "inStock": true,
+   "order": 25,
+   "builderModel": ""
+  },
+  {
+   "id": "prod_decorative-mirrors",
+   "slug": "decorative-mirrors",
+   "name": "Decorative Mirrors",
+   "categoryId": "cat_tables",
+   "shortDescription": "Statement mirrors in carved frames.",
+   "description": "Decorative mirrors in carved and gilded frames, made to order in any size.",
+   "price": 6500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/decorative-mirrors.webp"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Carved wood frame",
+    "Bevelled mirror"
+   ],
+   "dimensions": "Custom sizes",
+   "warrantyYears": 2,
+   "inStock": true,
+   "order": 26,
+   "builderModel": ""
+  },
+  {
+   "id": "prod_executive-table",
+   "slug": "executive-table",
+   "name": "Executive Table",
+   "categoryId": "cat_office-and-study",
+   "shortDescription": "Executive desk with side return.",
+   "description": "A commanding executive desk with a side return, pedestal drawers and cable management.",
+   "price": 32500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/executive-table.webp"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Engineered wood",
+    "Laminate",
+    "Soft-close drawers"
+   ],
+   "dimensions": "72 x 36 x 30 in",
+   "warrantyYears": 5,
+   "inStock": true,
+   "order": 27,
+   "builderModel": ""
+  },
+  {
+   "id": "prod_office-table",
+   "slug": "office-table",
+   "name": "Office Table",
+   "categoryId": "cat_office-and-study",
+   "shortDescription": "Everyday office desk with drawers.",
+   "description": "A clean office desk with three drawers and a modesty panel. Available in widths from 4 to 6 ft.",
+   "price": 14500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/office-table.webp"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Engineered wood",
+    "Laminate"
+   ],
+   "dimensions": "60 x 30 x 30 in",
+   "warrantyYears": 3,
+   "inStock": true,
+   "order": 28,
+   "builderModel": ""
+  },
+  {
+   "id": "prod_study-desk",
+   "slug": "study-desk",
+   "name": "Study Desk",
+   "categoryId": "cat_office-and-study",
+   "shortDescription": "Study desk with hutch and shelves.",
+   "description": "A study desk with an overhead hutch, pin-board and open shelving to keep books within reach.",
+   "price": 11500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/study-desk.webp"
+   ],
+   "featured": false,
+   "badge": "Student pick",
+   "materials": [
+    "Engineered wood",
+    "Laminate"
+   ],
+   "dimensions": "48 x 24 x 60 in",
+   "warrantyYears": 3,
+   "inStock": true,
+   "order": 29,
+   "builderModel": ""
+  },
+  {
+   "id": "prod_executive-chairs-hb",
+   "slug": "executive-chairs-hb",
+   "name": "Executive Chairs HB",
+   "categoryId": "cat_office-and-study",
+   "shortDescription": "High-back executive chair in leatherette.",
+   "description": "A high-back executive chair with lumbar support, synchro-tilt mechanism and padded armrests.",
+   "price": 12900,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/executive-chairs-hb.webp"
+   ],
+   "featured": true,
+   "badge": "",
+   "materials": [
+    "Leatherette",
+    "Nylon base",
+    "Gas lift"
+   ],
+   "dimensions": "Seat height 18 to 22 in",
+   "warrantyYears": 2,
+   "inStock": true,
+   "order": 30,
+   "builderModel": "chair"
+  },
+  {
+   "id": "prod_office-chair-hb",
+   "slug": "office-chair-hb",
+   "name": "Office Chair HB",
+   "categoryId": "cat_office-and-study",
+   "shortDescription": "High-back mesh office chair.",
+   "description": "A breathable mesh high-back with adjustable lumbar, armrests and headrest for long working days.",
+   "price": 8900,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/office-chair-hb.webp"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Mesh back",
+    "Foam seat",
+    "Nylon base"
+   ],
+   "dimensions": "Seat height 17 to 21 in",
+   "warrantyYears": 2,
+   "inStock": true,
+   "order": 31,
+   "builderModel": "chair"
+  },
+  {
+   "id": "prod_office-chair-mb",
+   "slug": "office-chair-mb",
+   "name": "Office Chair MB",
+   "categoryId": "cat_office-and-study",
+   "shortDescription": "Mid-back task chair.",
+   "description": "A compact mid-back task chair with tilt lock and fixed armrests for home offices and workstations.",
+   "price": 6500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/office-chair-mb.webp"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Mesh back",
+    "Foam seat",
+    "Nylon base"
+   ],
+   "dimensions": "Seat height 17 to 21 in",
+   "warrantyYears": 2,
+   "inStock": true,
+   "order": 32,
+   "builderModel": "chair"
+  },
+  {
+   "id": "prod_visitor-chair",
+   "slug": "visitor-chair",
+   "name": "Visitor Chair",
+   "categoryId": "cat_office-and-study",
+   "shortDescription": "Cantilever visitor chair.",
+   "description": "A cantilever visitor chair with a cushioned seat, stackable and sturdy for waiting areas and meeting rooms.",
+   "price": 3900,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/visitor-chair.webp"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Steel frame",
+    "Cushioned seat"
+   ],
+   "dimensions": "Standard",
+   "warrantyYears": 1,
+   "inStock": true,
+   "order": 33,
+   "builderModel": "chair"
+  },
+  {
+   "id": "prod_tv-stand",
+   "slug": "tv-stand",
+   "name": "TV Stand",
+   "categoryId": "cat_storage-and-display-unit",
+   "shortDescription": "Low TV stand with drawers.",
+   "description": "A low-profile TV stand with two drawers, open shelving and cable cut-outs for a tidy media wall.",
+   "price": 9800,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/tv-stand.webp"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Engineered wood",
+    "Laminate"
+   ],
+   "dimensions": "60 x 16 x 18 in",
+   "warrantyYears": 3,
+   "inStock": true,
+   "order": 34,
+   "builderModel": ""
+  },
+  {
+   "id": "prod_tv-wall-unit",
+   "slug": "tv-wall-unit",
+   "name": "TV Wall Unit",
+   "categoryId": "cat_storage-and-display-unit",
+   "shortDescription": "Full-wall TV unit with back panel.",
+   "description": "A wall-mounted TV unit with a back panel, floating shelves, LED strip and closed storage.",
+   "price": 26500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/tv-wall-unit.webp"
+   ],
+   "featured": true,
+   "badge": "Made to measure",
+   "materials": [
+    "Engineered wood",
+    "Laminate",
+    "LED lighting"
+   ],
+   "dimensions": "Custom up to 12 ft",
+   "warrantyYears": 5,
+   "inStock": true,
+   "order": 35,
+   "builderModel": ""
+  },
+  {
+   "id": "prod_wardrobe",
+   "slug": "wardrobe",
+   "name": "Wardrobe",
+   "categoryId": "cat_storage-and-display-unit",
+   "shortDescription": "Two-door wardrobe with drawers.",
+   "description": "A compact two-door wardrobe with a hanging rail, shelves and two external drawers.",
+   "price": 18500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/wardrobe.webp"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Engineered wood",
+    "Laminate"
+   ],
+   "dimensions": "36 x 22 x 78 in",
+   "warrantyYears": 5,
+   "inStock": true,
+   "order": 36,
+   "builderModel": ""
+  },
+  {
+   "id": "prod_shoerack",
+   "slug": "shoerack",
+   "name": "Shoerack",
+   "categoryId": "cat_storage-and-display-unit",
+   "shortDescription": "Slim shoe rack with seat.",
+   "description": "A slim shoe cabinet with tilt-out drawers and a cushioned top you can sit on while lacing up.",
+   "price": 7500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/shoerack.webp"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Engineered wood",
+    "Cushioned top"
+   ],
+   "dimensions": "36 x 14 x 40 in",
+   "warrantyYears": 3,
+   "inStock": true,
+   "order": 37,
+   "builderModel": ""
+  },
+  {
+   "id": "prod_crockery-unit",
+   "slug": "crockery-unit",
+   "name": "Crockery Unit",
+   "categoryId": "cat_storage-and-display-unit",
+   "shortDescription": "Crockery display with glass doors.",
+   "description": "A crockery unit with glass display doors above and closed storage below, with internal lighting.",
+   "price": 21500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/crockery-unit.webp"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Engineered wood",
+    "Toughened glass",
+    "LED lighting"
+   ],
+   "dimensions": "48 x 18 x 78 in",
+   "warrantyYears": 5,
+   "inStock": true,
+   "order": 38,
+   "builderModel": ""
+  },
+  {
+   "id": "prod_book-shelf",
+   "slug": "book-shelf",
+   "name": "Book Shelf",
+   "categoryId": "cat_storage-and-display-unit",
+   "shortDescription": "Open bookshelf, five tiers.",
+   "description": "An open five-tier bookshelf in solid wood with a slim profile that fits any wall.",
+   "price": 8900,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/book-shelf.webp"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Solid wood",
+    "Polish finish"
+   ],
+   "dimensions": "36 x 12 x 72 in",
+   "warrantyYears": 3,
+   "inStock": true,
+   "order": 39,
+   "builderModel": ""
+  },
+  {
+   "id": "prod_pooja-cupboard-and-mandir",
+   "slug": "pooja-cupboard-and-mandir",
+   "name": "Pooja Cupboard And Mandir",
+   "categoryId": "cat_storage-and-display-unit",
+   "shortDescription": "Carved pooja mandir with storage.",
+   "description": "A hand-carved pooja mandir with a cupboard below for lamps and essentials, in traditional teak finish.",
+   "price": 15500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/pooja-cupboard-and-mandir.webp"
+   ],
+   "featured": false,
+   "badge": "Handcrafted",
+   "materials": [
+    "Seasoned wood",
+    "Hand carving",
+    "Teak polish"
+   ],
+   "dimensions": "30 x 18 x 60 in",
+   "warrantyYears": 5,
+   "inStock": true,
+   "order": 40,
+   "builderModel": ""
+  },
+  {
+   "id": "prod_dressing-table",
+   "slug": "dressing-table",
+   "name": "Dressing Table",
+   "categoryId": "cat_storage-and-display-unit",
+   "shortDescription": "Dressing table with mirror and stool.",
+   "description": "A dressing table with a tall mirror, three drawers and a cushioned stool.",
+   "price": 12500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/dressing-table.webp"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Engineered wood",
+    "Mirror",
+    "Cushioned stool"
+   ],
+   "dimensions": "36 x 16 x 66 in",
+   "warrantyYears": 3,
+   "inStock": true,
+   "order": 41,
+   "builderModel": ""
+  },
+  {
+   "id": "prod_wall-shelf",
+   "slug": "wall-shelf",
+   "name": "Wall Shelf",
+   "categoryId": "cat_storage-and-display-unit",
+   "shortDescription": "Floating wall shelves, set of three.",
+   "description": "Floating wall shelves in three lengths for books, plants and photographs.",
+   "price": 3500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/wall-shelf.webp"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Engineered wood",
+    "Concealed brackets"
+   ],
+   "dimensions": "24, 32 and 40 in",
+   "warrantyYears": 2,
+   "inStock": true,
+   "order": 42,
+   "builderModel": ""
+  },
+  {
+   "id": "prod_swing-lula",
+   "slug": "swing-lula",
+   "name": "Swing / Lula",
+   "categoryId": "cat_other",
+   "shortDescription": "Traditional wooden swing (oonjal).",
+   "description": "A traditional wooden swing with brass chains, a carved seat and backrest. Rated for three adults.",
+   "price": 24500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/swing-lula.webp"
+   ],
+   "featured": true,
+   "badge": "Heirloom",
+   "materials": [
+    "Teak wood",
+    "Brass chains",
+    "Carved backrest"
+   ],
+   "dimensions": "60 x 24 in seat",
+   "warrantyYears": 10,
+   "inStock": true,
+   "order": 43,
+   "builderModel": ""
+  },
+  {
+   "id": "prod_rocking-chair",
+   "slug": "rocking-chair",
+   "name": "Rocking Chair",
+   "categoryId": "cat_other",
+   "shortDescription": "Classic rocking chair with cane seat.",
+   "description": "A classic rocking chair with a cane seat and a bentwood frame. Rocks with a gentle, steady rhythm.",
+   "price": 9500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/rocking-chair.webp"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Solid wood",
+    "Natural cane"
+   ],
+   "dimensions": "26 x 36 x 40 in",
+   "warrantyYears": 3,
+   "inStock": true,
+   "order": 44,
+   "builderModel": "chair"
+  },
+  {
+   "id": "prod_corner-stand",
+   "slug": "corner-stand",
+   "name": "Corner Stand",
+   "categoryId": "cat_other",
+   "shortDescription": "Three-tier corner stand.",
+   "description": "A compact corner stand with three tiers for plants, lamps or a small shrine.",
+   "price": 4500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/corner-stand.webp"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Solid wood"
+   ],
+   "dimensions": "16 x 16 x 36 in",
+   "warrantyYears": 2,
+   "inStock": true,
+   "order": 45,
+   "builderModel": ""
+  },
+  {
+   "id": "prod_accent-mirrors",
+   "slug": "accent-mirrors",
+   "name": "Accent Mirrors",
+   "categoryId": "cat_other",
+   "shortDescription": "Round accent mirror.",
+   "description": "A round accent mirror in a slim wooden frame, available in three diameters.",
+   "price": 3900,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/accent-mirrors.webp"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Wood frame",
+    "Mirror"
+   ],
+   "dimensions": "18, 24 or 30 in",
+   "warrantyYears": 2,
+   "inStock": true,
+   "order": 46,
+   "builderModel": ""
+  },
+  {
+   "id": "prod_easy-chairs-recliner-chair",
+   "slug": "easy-chairs-recliner-chair",
+   "name": "Easy Chairs / Recliner Chair",
+   "categoryId": "cat_other",
+   "shortDescription": "Single recliner for reading and naps.",
+   "description": "A single-seat recliner with a push-back mechanism, padded headrest and extending footrest.",
+   "price": 16500,
+   "compareAtPrice": null,
+   "images": [
+    "/images/products/easy-chairs-recliner-chair.webp"
+   ],
+   "featured": false,
+   "badge": "",
+   "materials": [
+    "Hardwood frame",
+    "Steel mechanism",
+    "Fabric"
+   ],
+   "dimensions": "32 x 36 x 40 in",
+   "warrantyYears": 3,
+   "inStock": true,
+   "order": 47,
+   "builderModel": "chair"
+  }
+ ]
+}

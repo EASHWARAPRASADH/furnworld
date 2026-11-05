@@ -1,0 +1,300 @@
+{
+ "cot": [
+  {
+   "name": "Bottom Storage Wooden Cot",
+   "image": "62cae2f89c35bBotton Storage wooden cot.jpg",
+   "slug": "bottom-storage-wooden-cot",
+   "file": "bottom-storage-wooden-cot.jpg"
+  },
+  {
+   "name": "Modular Wooden Cot",
+   "image": "62cd29e26d13cModular wooden cot.webp",
+   "slug": "modular-wooden-cot",
+   "file": "modular-wooden-cot.webp"
+  },
+  {
+   "name": "Queen Size Wooden Cot",
+   "image": "62cd2a520d13dQueen Size wooden cot.webp",
+   "slug": "queen-size-wooden-cot",
+   "file": "queen-size-wooden-cot.webp"
+  },
+  {
+   "name": "Teak Wood Cot",
+   "image": "6325d96fb3929New Project (23).webp",
+   "slug": "teak-wood-cot",
+   "file": "teak-wood-cot.webp"
+  },
+  {
+   "name": "Storage cot",
+   "image": "6325d9b4804faNew Project (24).webp",
+   "slug": "storage-cot",
+   "file": "storage-cot.webp"
+  }
+ ],
+ "dining-table": [
+  {
+   "name": "Round Wooden Dining Table",
+   "image": "62cd2e7bea166round wooden dining table.jpg",
+   "slug": "round-wooden-dining-table",
+   "file": "round-wooden-dining-table.jpg"
+  },
+  {
+   "name": "Wooden Dining Table 6 Seater",
+   "image": "62cd2e8c25e18wooden dining table 6 seater.jpg",
+   "slug": "wooden-dining-table-6-seater",
+   "file": "wooden-dining-table-6-seater.jpg"
+  },
+  {
+   "name": "Wooden Dining Table",
+   "image": "62cd2ea3e95acWooden Dining Table.jpg",
+   "slug": "wooden-dining-table",
+   "file": "wooden-dining-table.jpg"
+  }
+ ],
+ "office-and-study": [
+  {
+   "name": "Executive Table",
+   "image": "6325dda614302New Project (34).webp",
+   "slug": "executive-table",
+   "file": "executive-table.webp"
+  },
+  {
+   "name": "Office Table",
+   "image": "6325dddb001ebNew Project (35).webp",
+   "slug": "office-table",
+   "file": "office-table.webp"
+  },
+  {
+   "name": "Study Desk",
+   "image": "6325de5d6ea95New Project (36).webp",
+   "slug": "study-desk",
+   "file": "study-desk.webp"
+  },
+  {
+   "name": "Executive Chairs HB",
+   "image": "6325de95d5ec5New Project (37).webp",
+   "slug": "executive-chairs-hb",
+   "file": "executive-chairs-hb.webp"
+  },
+  {
+   "name": "Office Chair HB",
+   "image": "6325def9a7bddNew Project (39).webp",
+   "slug": "office-chair-hb",
+   "file": "office-chair-hb.webp"
+  },
+  {
+   "name": "Office Chair MB",
+   "image": "6325df2d6391aNew Project (40).webp",
+   "slug": "office-chair-mb",
+   "file": "office-chair-mb.webp"
+  },
+  {
+   "name": "Visitor Chair",
+   "image": "6325df62235ecNew Project (41).webp",
+   "slug": "visitor-chair",
+   "file": "visitor-chair.webp"
+  }
+ ],
+ "other": [
+  {
+   "name": "Swing / Lula",
+   "image": "6325e146df974New Project (47).webp",
+   "slug": "swing-lula",
+   "file": "swing-lula.webp"
+  },
+  {
+   "name": "Rocking Chair",
+   "image": "6325e17b8d763New Project (48).webp",
+   "slug": "rocking-chair",
+   "file": "rocking-chair.webp"
+  },
+  {
+   "name": "Corner Stand",
+   "image": "6325e20fe9e6aNew Project (49).webp",
+   "slug": "corner-stand",
+   "file": "corner-stand.webp"
+  },
+  {
+   "name": "Accent mirrors",
+   "image": "6325e2f7189f1New Project (51).webp",
+   "slug": "accent-mirrors",
+   "file": "accent-mirrors.webp"
+  },
+  {
+   "name": "Easy chairs / Recliner Chair",
+   "image": "6325e339331b6New Project (52).webp",
+   "slug": "easy-chairs-recliner-chair",
+   "file": "easy-chairs-recliner-chair.webp"
+  }
+ ],
+ "sofa": [
+  {
+   "name": "Wooden Sofa set",
+   "image": "62c7fecaa2b07Wooden Sofa Set.jpg",
+   "slug": "wooden-sofa-set",
+   "file": "wooden-sofa-set.jpg"
+  },
+  {
+   "name": "Premium Sofa",
+   "image": "62c7ff0400c0cPremium Sofas.jpg",
+   "slug": "premium-sofa",
+   "file": "premium-sofa.jpg"
+  },
+  {
+   "name": "Reclining Sofa",
+   "image": "62c7ff354f9efReclining Sofas.jpg",
+   "slug": "reclining-sofa",
+   "file": "reclining-sofa.jpg"
+  },
+  {
+   "name": "Full Cushion Sofa",
+   "image": "6325d8188a61562c7fecaa2b07Wooden Sofa Set.webp",
+   "slug": "full-cushion-sofa",
+   "file": "full-cushion-sofa.webp"
+  },
+  {
+   "name": "Corner / L-Shape Sofa",
+   "image": "6325d8362525c62c7fecaa2b07Wooden Sofa Set (1).webp",
+   "slug": "corner-l-shape-sofa",
+   "file": "corner-l-shape-sofa.webp"
+  },
+  {
+   "name": "Sofa cum bed",
+   "image": "6325d84a511ae62c7fecaa2b07Wooden Sofa Set.png",
+   "slug": "sofa-cum-bed",
+   "file": "sofa-cum-bed.png"
+  },
+  {
+   "name": "Dewan",
+   "image": "6325d85e55b2462c7fecaa2b07Wooden Sofa Set (2).webp",
+   "slug": "dewan",
+   "file": "dewan.webp"
+  },
+  {
+   "name": "Lounge Chairs",
+   "image": "6325d8761c4acNew Project (21).webp",
+   "slug": "lounge-chairs",
+   "file": "lounge-chairs.webp"
+  },
+  {
+   "name": "Wooden Corner Sofa",
+   "image": "6325d91f384eaNew Project (22).webp",
+   "slug": "wooden-corner-sofa",
+   "file": "wooden-corner-sofa.webp"
+  }
+ ],
+ "storage-and-display-unit": [
+  {
+   "name": "TV Stand",
+   "image": "6325daaa02b73New Project (25).webp",
+   "slug": "tv-stand",
+   "file": "tv-stand.webp"
+  },
+  {
+   "name": "Tv Wall Unit",
+   "image": "6325db512835bNew Project (26).webp",
+   "slug": "tv-wall-unit",
+   "file": "tv-wall-unit.webp"
+  },
+  {
+   "name": "Wardrobe",
+   "image": "6325dba59b0adNew Project (27).webp",
+   "slug": "wardrobe",
+   "file": "wardrobe.webp"
+  },
+  {
+   "name": "Shoerack",
+   "image": "6325dbe54d128New Project (28).webp",
+   "slug": "shoerack",
+   "file": "shoerack.webp"
+  },
+  {
+   "name": "Crockery Unit",
+   "image": "6325dc2d0bb36New Project (29).webp",
+   "slug": "crockery-unit",
+   "file": "crockery-unit.webp"
+  },
+  {
+   "name": "Book Shelf",
+   "image": "6325dc678a80bNew Project (30).webp",
+   "slug": "book-shelf",
+   "file": "book-shelf.webp"
+  },
+  {
+   "name": "Pooja cupboard and Mandir",
+   "image": "6325dcd9482feNew Project (31).webp",
+   "slug": "pooja-cupboard-and-mandir",
+   "file": "pooja-cupboard-and-mandir.webp"
+  },
+  {
+   "name": "Dressing Table",
+   "image": "6325dd1fd7da5New Project (32).webp",
+   "slug": "dressing-table",
+   "file": "dressing-table.webp"
+  },
+  {
+   "name": "Wall Shelf",
+   "image": "6325dd59c896cNew Project (33).webp",
+   "slug": "wall-shelf",
+   "file": "wall-shelf.webp"
+  }
+ ],
+ "tables": [
+  {
+   "name": "Teapoy and Coffee Table",
+   "image": "6325dfc0bdb7eNew Project (42).webp",
+   "slug": "teapoy-and-coffee-table",
+   "file": "teapoy-and-coffee-table.webp"
+  },
+  {
+   "name": "Console table",
+   "image": "6325e007664ceNew Project (43).webp",
+   "slug": "console-table",
+   "file": "console-table.webp"
+  },
+  {
+   "name": "Folding Table",
+   "image": "6325e0450707bNew Project (44).webp",
+   "slug": "folding-table",
+   "file": "folding-table.webp"
+  },
+  {
+   "name": "side table",
+   "image": "6325e09250e9eNew Project (45).webp",
+   "slug": "side-table",
+   "file": "side-table.webp"
+  },
+  {
+   "name": "set of three tables",
+   "image": "6325e1079df5aNew Project (46).webp",
+   "slug": "set-of-three-tables",
+   "file": "set-of-three-tables.webp"
+  },
+  {
+   "name": "Decorative Mirrors",
+   "image": "6325e2a5c26b9New Project (50).webp",
+   "slug": "decorative-mirrors",
+   "file": "decorative-mirrors.webp"
+  }
+ ],
+ "wardrode": [
+  {
+   "name": "Bedroom Wardrobe",
+   "image": "62cd2ad183b39bedroom wardrobe.jpg",
+   "slug": "bedroom-wardrobe",
+   "file": "bedroom-wardrobe.jpg"
+  },
+  {
+   "name": "Modular Wardrobe",
+   "image": "62cd2b4a6f41bModular Wardrobe.jpg",
+   "slug": "modular-wardrobe",
+   "file": "modular-wardrobe.jpg"
+  },
+  {
+   "name": "Dressing Table Wardrobe",
+   "image": "63288571b566f62cd2e8c25e18wooden dining table 6 seater.webp",
+   "slug": "dressing-table-wardrobe",
+   "file": "dressing-table-wardrobe.webp"
+  }
+ ]
+}

@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Furn World
 
-## Getting Started
+Furniture manufacturer website for Furn World (Chennai & Karaikal) with a 3D furniture builder and a full admin panel.
 
-First, run the development server:
+## Stack
+
+- Next.js 16 (App Router, Cache Components, Turbopack), React 19, TypeScript, Tailwind v4
+- 3D: three.js, @react-three/fiber, @react-three/drei (procedural sofa, lounge chair, cot, dining table)
+- Animation: motion (Framer Motion), GSAP ScrollTrigger, Lenis smooth scroll
+- Content store: `data/db.json` (created from `src/lib/seed.ts` on first run). Swap for a database by replacing `src/lib/db.ts`.
+- Admin auth: signed cookie (jose). Credentials live in `data/db.json` (hashed) and can be overridden with env vars.
+
+## Run locally
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Site: http://localhost:3000 · Admin: http://localhost:3000/admin
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Default admin login is in `.env.example`. Change the password from Admin → Settings before going live.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Admin panel
 
-## Learn More
+Everything on the site is editable at `/admin`:
 
-To learn more about Next.js, take a look at the following resources:
+- Products (photos, descriptions, materials, badges, featured, 3D builder link)
+- Categories, hero slides, promo banners
+- About page (story, numbers, values, process), FAQ page, Care & warranty page
+- Testimonials, showrooms (addresses, phones, map), settings (contact, WhatsApp, announcement bar, SEO, show/hide prices)
+- 3D builder fabrics, wood finishes and pricing
+- Enquiries inbox (from product pages, the 3D builder and the contact form)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Uploaded images are resized to WebP and stored in `public/uploads/`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deploy
 
-## Deploy on Vercel
+Copy `.env.example` to `.env.local` (or set the same variables on the server) and set a long random `AUTH_SECRET`, your `SITE_URL`, and a strong `ADMIN_PASSWORD`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+pnpm build
+pnpm start
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The content file (`data/db.json`) and `public/uploads/` must live on persistent disk, so deploy to a VPS, Railway, Render, Fly.io or a Docker host rather than a serverless platform. Set `DATA_DIR` to move the content file elsewhere.
+
+## SEO
+
+Per-page metadata and canonical URLs, Open Graph images (site and per product), JSON-LD for the business, products, categories, breadcrumbs and FAQ, `sitemap.xml`, `robots.txt` and a web manifest are all generated automatically from the admin content.
